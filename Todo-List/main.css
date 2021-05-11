@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+#container {
+    width:300px;
+    padding-top:150px;
+}
+
+#title {
+    color:#000;
+    background-color: #fff;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    text-align:center;
+    text-transform:lowercase;
+    
+    max-width: 120px;
+    padding:5px;
+    border:1px solid #eee;
+    border-radius:15px;
+    margin:auto;
+    margin-bottom:10px;
+}
+
+#sub-container {
+    background-color:#fff;
+
+    max-width: 300px;
+    height:300px;
+    border:1px solid #eee;
+    border-radius:15px;
+    margin:auto;
+}
+
+#list-group {
+    padding-top:10px;
+    margin:auto;
+}
+
+.list-group-item {
+    color: #000;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform:lowercase;
+
+    border:none;
+    border-bottom:1px solid #eee;
+}
+
+#delete-button {
+    color:#fff;
+    background-color:rgb(103, 154, 231);
+
+    font-size: 8px;
+    text-align:center;
+
+    width:45px;
+    padding:6px;
+    border: 1px solid #eee;
+    border-radius:15px;
+}
+
+#input-area {
+    color:#000;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px; 
+
+    border:1px solid #eee;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#input-group {
+    max-width:300px;
+    padding-top: 10px;
+}
+
+#button-area {
+    color:#fff;
+    background-color:rgb(103, 154, 231);
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px; 
+    text-transform:lowercase;
+
+    border: 1px solid #eee;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
